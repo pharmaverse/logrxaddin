@@ -1,0 +1,4 @@
+Name: Submit with logrx
+Description: Runs a file using `axecute()`
+Binding: logrxaddin
+Interactive: true

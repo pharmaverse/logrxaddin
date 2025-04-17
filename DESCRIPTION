@@ -1,0 +1,17 @@
+Package: logrxaddin
+Title: Addins for the 'logrx' package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ben", "Straub", , "ben.x.straub@gsk.com", role = c("aut", "cre"))
+Description: Enables Add-ins and other utilities to interface with the 'logrx' package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    logrx,
+    stringr,
+    miniUI,
+    rstudioapi,
+    shiny,
+    waiter,
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
