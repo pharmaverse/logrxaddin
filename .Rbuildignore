@@ -7,3 +7,11 @@
 ^logrxaddin\.Rcheck$
 ^logrxaddin.*\.tar\.gz$
 ^logrxaddin.*\.tgz$
+^logrx\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^LICENSE\.md$
+^_pkgdown\.yml$
+^docs$
+^README\.Rmd$
+^data-raw$
