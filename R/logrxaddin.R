@@ -2,8 +2,8 @@
 #'
 #' `logrxaddin` creates the miniUI for the logrx RStudio Addin
 #'
-#' @return MiniUI for the logrx Rstudio Addin for batch submitting R files and
-#' generating their logs
+#' @return MiniUI for the logrx Rstudio Addin for submitting an R file to logrx to
+#' generate a log for the file.
 #'
 #' @importFrom miniUI miniPage gadgetTitleBar miniContentPanel
 #' @importFrom shiny textInput checkboxInput actionButton uiOutput reactiveValues observeEvent renderText stopApp runGadget fluidRow column tags HTML
