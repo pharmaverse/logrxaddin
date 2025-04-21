@@ -1,6 +1,6 @@
 Package: logrxaddin
-Title: Addins for the 'logrx' package
-Version: 0.0.0.9000
+Title: Addins for the 'logrx' Package
+Version: 0.0.1
 Authors@R: 
     person("Ben", "Straub", , "ben.x.straub@gsk.com", role = c("aut", "cre"))
 Description: Enables Add-ins and other utilities to interface with the 'logrx' package.
