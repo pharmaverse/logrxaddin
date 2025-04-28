@@ -13,3 +13,11 @@ generate a log for the file.
 \description{
 \code{logrxaddin} creates the miniUI for the logrx RStudio Addin
 }
+\examples{
+# It is recommended to run the Addin from the RStudio Addin drop down. However,
+# you can call it from the command line.
+\dontrun{
+logrxaddin::logrxaddin()
+}
+
+}

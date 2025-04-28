@@ -10,7 +10,15 @@
 #' @importFrom rstudioapi selectFile selectDirectory
 #' @importFrom stringr str_replace
 #' @importFrom waiter useWaiter waiter_show waiter_hide spin_solar
-#'
+#' 
+#' @export
+#' 
+#' @examples
+#' # It is recommended to run the Addin from the RStudio Addin drop down. However,
+#' # you can call it from the command line.
+#' \dontrun{
+#' logrxaddin::logrxaddin()
+#' }
 #'
 logrxaddin <- function() {
   ui <- miniUI::miniPage(

@@ -1,10 +1,15 @@
+Type: Package
 Package: logrxaddin
-Title: Addins for the 'logrx' Package
+Title: Addin for the 'logrx' Package
 Version: 0.0.1
 Authors@R: 
     person("Ben", "Straub", , "ben.x.straub@gsk.com", role = c("aut", "cre"))
-Description: Enables Add-ins and other utilities to interface with the 'logrx' package.
+Description: This is an extension package to 'logrx', which is a log creation 
+  program focused on Clinical Reporting within the Pharma Industry.  This package 
+  enables a simple 'shiny-based' Add-in that provides a point and click interface 
+  to produce a log for a single program.
 License: MIT + file LICENSE
+URL: https://github.com/pharmaverse/logrxaddin  
 Encoding: UTF-8
 Imports:
     logrx,
