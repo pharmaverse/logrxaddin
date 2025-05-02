@@ -6,6 +6,20 @@
 
 This is a simple Addin to interact with the the [logrx](https://pharmaverse.github.io/logrx/) R Package.
 
+## Installation
+
+This package is available from CRAN and can be installed by running:
+
+``` r
+install.packages("logrx")
+```
+
+To get the latest development version use:
+
+``` r
+devtools::install_github("pharmaverse/logrx")
+```
+
 It is for single file submission only.  There is **no** batch submit interface, but 
 that could be on the horizon!
 
